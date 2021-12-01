@@ -126,7 +126,7 @@ ul {
   margin-bottom: 9px;
 }
 
-.address-list li:nth-child() .hero-section {
+.hero-section {
   background-color: #2f303a;
   text-align: center;
   padding-top: 200px;
