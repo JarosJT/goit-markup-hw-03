@@ -21,26 +21,24 @@
     <!-- header_section -->
 
     <header class="header">
-      <div class="container">
+      <div class="container flex-nav">
         <!-- header_section_nav -->
 
-        <div class="flex-nav">
-          <nav class="nav">
-            <a href="/" class="logo-first link"><span class="firstpart-logo">Web</span>Studio</a>
-            <ul class="nav-list list">
-              <li class="item"><a href="#" class="link top-link current-link">Студия</a></li>
-              <li class="item"><a href="./portfolio.html" class="link top-link">Портфолио</a></li>
-              <li class="item"><a href="#" class="link top-link">Контакты</a></li>
-            </ul>
-          </nav>
-          <!-- header_section_contact -->
-          <ul class="auth-nav list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link topnav-link top-link">info@devstudio.com</a>
-            </li>
-            <li class="item"><a href="tel:+380961111111" class="link topnav-link top-link">+38 096 111 11 11</a></li>
+        <nav class="nav">
+          <a href="/" class="logo-first link"><span class="firstpart-logo">Web</span>Studio</a>
+          <ul class="nav-list list">
+            <li class="item"><a href="#" class="link top-link current-link">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link top-link">Портфолио</a></li>
+            <li class="item"><a href="#" class="link top-link">Контакты</a></li>
           </ul>
-        </div>
+        </nav>
+        <!-- header_section_contact -->
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link topnav-link top-link">info@devstudio.com</a>
+          </li>
+          <li class="item"><a href="tel:+380961111111" class="link topnav-link top-link">+38 096 111 11 11</a></li>
+        </ul>
       </div>
     </header>
 
@@ -58,7 +56,7 @@
       <!-- main_section_2 -->
       <section class="tips-section section">
         <div class="container">
-          <h2 class="our-tips">Наши преимущества</h2>
+          <h2 class="our-tips visually-hidden">Наши преимущества</h2>
           <ul class="tips-list list">
             <li class="item">
               <h3 class="our-tips-headers">Внимание к деталям</h3>
@@ -102,29 +100,29 @@
           <h2 class="our-team">Наша команда</h2>
           <ul class="our-team-list list">
             <li class="team-card">
-              <div class="team-card-block">
-                <img src="./images/img1.jpg" class="team-card-img" alt="Игорь Демьяненко" width="270" height="260" />
+              <img src="./images/img1.jpg" class="team-card-img" alt="Игорь Демьяненко" width="270" height="260" />
+              <div class="team-card-text">
                 <h3 class="team-card-name">Игорь Демьяненко</h3>
                 <p class="team-card-profession">Product Designer</p>
               </div>
             </li>
             <li class="team-card">
-              <div class="team-card-block">
-                <img src="./images/img2.jpg" class="team-card-img" alt="Ольга Репина" width="270" height="260" />
+              <img src="./images/img2.jpg" class="team-card-img" alt="Ольга Репина" width="270" height="260" />
+              <div class="team-card-text">
                 <h3 class="team-card-name">Ольга Репина</h3>
                 <p class="team-card-profession">Frontend Developer</p>
               </div>
             </li>
             <li class="team-card">
-              <div class="team-card-block">
-                <img src="./images/img3.jpg" class="team-card-img" alt="Николай Тарасов" width="270" height="260" />
+              <img src="./images/img3.jpg" class="team-card-img" alt="Николай Тарасов" width="270" height="260" />
+              <div class="team-card-text">
                 <h3 class="team-card-name">Николай Тарасов</h3>
                 <p class="team-card-profession">Marketing</p>
               </div>
             </li>
             <li class="team-card">
-              <div class="team-card-block">
-                <img src="./images/img4.jpg" class="team-card-img" alt="Михаил Ермаков" width="270" height="260" />
+              <img src="./images/img4.jpg" class="team-card-img" alt="Михаил Ермаков" width="270" height="260" />
+              <div class="team-card-text">
                 <h3 class="team-card-name">Михаил Ермаков</h3>
                 <p class="team-card-profession">UI Designer</p>
               </div>
@@ -138,7 +136,7 @@
       <div class="container">
         <a href="/" class="logo-second link"><span class="firstpart-logo">Web</span>Studio</a>
         <address class="address">
-          <ul class="list">
+          <ul class="address-list list">
             <li><a href="#" class="link faddress-link">г. Киев, пр-т Леси Украинки, 26</a></li>
             <li><a href="mailto:info@example.com" class="link faddress-link-second">info@example.com</a></li>
             <li><a href="tel:+380991111111" class="link faddress-link-second">+38 099 111 11 11</a></li>
